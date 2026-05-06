@@ -1,0 +1,59 @@
+* {
+    /* Tightens everything to the pixel */
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #000000;
+    color: #ffffff;
+    /* This creates a very thin separator from the rest of your screen */
+    border-bottom: 1px solid #222222;
+}
+
+#custom-arch {
+    font-size: 12px;
+    padding: 0 8px;
+    color: #ffffff;
+}
+
+#workspaces button {
+    border: none;
+    outline: none;       /* Add this to remove focus outlines */
+    box-shadow: none;
+    text-shadow: none;   /* Removes any glow that looks like a border */
+    background: transparent;
+    border-radius: 0;
+    padding: 0px 5px;
+}
+
+#workspaces button.active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: #222222; /* Or keep it #000000 if you want it invisible */
+    color: #ffffff;
+}
+/* This is the Cava style from the repo you found */
+#custom-cava {
+    color: #666666;
+    letter-spacing: -1.5px; /* Removes gaps between the bars */
+    padding: 0 5px;
+}
+
+#clock, #pulseaudio, #network, #battery {
+    padding: 0 6px;
+}
+
+#clock {
+    color: #ffffff;
+}
+
+/* Optional: Subtle grey for secondary info */
+#pulseaudio, #network, #battery {
+    color: #bbbbbb;
+}
