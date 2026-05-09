@@ -1,0 +1,27 @@
+[global]
+    monitor = 0
+    origin = top-right
+    offset = 20x20
+    width = 360
+    height = 200
+    gap_size = 8
+    
+    # Slide from right
+    animation = slide_from_right
+    
+    corner_radius = 12
+    frame_width = 1
+    padding = 14
+    horizontal_padding = 16
+    
+    # Transparency (let Hyprland blur handle the rest)
+    transparency = 15
+    
+    font = JetBrainsMono Nerd Font 11
+    markup = full
+    format = "<b>%s</b>\n%b"
+    icon_position = left
+    max_icon_size = 48
+    
+[urgency_normal]
+    timeout = 4
